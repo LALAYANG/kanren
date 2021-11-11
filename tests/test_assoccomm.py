@@ -445,6 +445,7 @@ def test_assoc_flatten():
 
 
 def test_eq_assoccomm():
+    associative.facts.clear()
     x, y = var(), var()
 
     ac = "commassoc_op"
